@@ -13,5 +13,5 @@ deploy:
   provider: heroku
   api_key:
     secure:
-  app: <name of app you created on heroku> (Ex: powerful-cove-00403)
+  app: nameless-plains-48795
   run: rails db:migrate
