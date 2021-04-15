@@ -53,7 +53,10 @@ Give an example
 ```
 ## Endpoints
 
-### Recipe Viewpage info
+### Recipe search
+
+   Passes params from user on recipe search page to spoonacular microservice.
+   Returns standard JSON for Frontend views.
    
    ```{
        "data": {
@@ -61,9 +64,8 @@ Give an example
         "type": String,
         "attributes": {
             "Title": String,
-            "Ingredients": [ { } ],
-            "Instructions": [ { } ],
-            "Nutrition": { },
+            "Cuisine": [ { } ],
+            "Calories": { },
          }
        }
      }
