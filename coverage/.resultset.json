@@ -208,10 +208,26 @@
         "lines": [
           1,
           null,
+          1,
+          null
+        ]
+      },
+      "/Users/jacobarellano/turing/3module/projects/ROR-Backend/app/controllers/recipes_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/jacobarellano/turing/3module/projects/ROR-Backend/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
           null
         ]
       }
     },
-    "timestamp": 1618522085
+    "timestamp": 1618522630
   }
 }
