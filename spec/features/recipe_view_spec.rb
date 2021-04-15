@@ -12,8 +12,6 @@ RSpec.describe 'Recipe Viewpage' do
         # ).
         to_return(status: 200, body: json_response)
 
-        require "pry"; binding.pry
-
     end
   end
 end
