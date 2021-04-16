@@ -4,7 +4,7 @@ RSpec.describe 'Recipe Endpoints' do
   describe 'happy paths' do
     it 'returns recipe information in correct format' do
 
-      get '/recipes?ingredient1=chicken&ingredient2=rice'
+      #get '/recipes?ingredient1=chicken&ingredient2=rice'
 
       json_response = File.read("spec/fixtures/recipe_call.json")
       stub_request(:get, "https://pure-chamber-22336.herokuapp.com/recipes?ingredient1=chicken&ingredient2=rice").
