@@ -9,12 +9,9 @@ class RecipesController < ApplicationController
   def show
     recipe = render json: "https://pure-chamber-22336.herokuapp.com/recipes/1"
   end
-  
+
   def validate_params(params)
-    # ("apple,chicken,rice") <-- valid format
-
     ingredients = []
-
     ingredients << params[:ingredient1]
     ingredients << params[:ingredient2]
     ingredients << params[:ingredient3]

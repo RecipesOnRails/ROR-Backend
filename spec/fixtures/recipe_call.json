@@ -4,8 +4,12 @@
     "type": "recipe_search",
     "attributes": {
       "title": "Chicken tiki masala",
-      "cuisine": "Indian",
-      "calories": 900
+      "ingredients": [{"chicken": "1 chicken breast"}, {"rice": "1 cup"}],
+      "instructions": [{"step 1": "cut chicken into pieces"}, {"step 2": "bring water for rice to a boil"}],
+      "nutrition": {"calories": 900,
+                    "protein": "15 grams",
+                    "carbohydrates": "100 grams"
+      }
     }
   }
 }

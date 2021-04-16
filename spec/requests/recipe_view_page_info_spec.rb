@@ -25,9 +25,9 @@ RSpec.describe 'Recipe View Page Info' do
       expect(parsed[:data][:type]).to be_a(String)
       expect(parsed[:data][:attributes]).to be_a(Hash)
       expect(parsed[:data][:attributes][:title]).to be_a(String)
-      expect(parsed[:data][:attributes][:cuisine]).to be_a(String)
-      expect(parsed[:data][:attributes][:calories]).to be_a(Integer)
-
+      expect(parsed[:data][:attributes][:instructions]).to be_a(Array)
+      expect(parsed[:data][:attributes][:ingredients]).to be_a(Array)
+      expect(parsed[:data][:attributes][:nutrition]).to be_a(Hash)
     end
   end
 end

@@ -23,5 +23,24 @@ RSpec.describe 'Recipe Endpoints' do
         expect(parsed[:data][:attributes][:calories]).to be_a(Integer)
 
     end
+
+    it "can sanitize ingredient params" do
+      params = {ingredient1: "chicken",
+                ingredient2: "rice"
+      }
+
+      test_method = RecipesController.new.validate_params(params)
+
+      expect(test_method).to eq("chicken,rice")
+    end
+
+    it "can sanitize ingredient params if params are empty" do
+      params = {ingredient1: nil,
+                ingredient2: nil
+      }
+
+      test_method = RecipesController.new.validate_params(params)
+      expect(test_method).to eq("")
+    end
   end
 end
