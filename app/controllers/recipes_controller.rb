@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class RecipesController < ApplicationController
   def index
     data = RecipesService.recipe_search(params[:ingredient1])
@@ -5,8 +7,8 @@ class RecipesController < ApplicationController
   end
 
   def show
-
-    recipe = render json: "https://pure-chamber-22336.herokuapp.com/recipes/1"
+    data = RecipesService.recipe_view(params[:id])
+    recipe = render json: data
   end
 
   def validate_params(params)
