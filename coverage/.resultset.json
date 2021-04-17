@@ -204,6 +204,33 @@
           null
         ]
       },
+      "/Users/harrison/turing/mod3/projects/ROR-Backend/spec/factories/meal_plan_recipes.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/harrison/turing/mod3/projects/ROR-Backend/spec/factories/meal_plans.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/harrison/turing/mod3/projects/ROR-Backend/spec/factories/recipes.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/harrison/turing/mod3/projects/ROR-Backend/config/routes.rb": {
         "lines": [
           1,
@@ -213,38 +240,38 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/app/controllers/recipes_controller.rb": {
+      "/Users/harrison/turing/mod3/projects/ROR-Backend/app/models/meal_plan_recipe.rb": {
         "lines": [
           1,
           1,
-          0,
-          0,
-          0,
-          null,
-          null,
-          null,
           1,
-          1,
-          null,
-          null,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/app/controllers/application_controller.rb": {
+      "/Users/harrison/turing/mod3/projects/ROR-Backend/app/models/application_record.rb": {
         "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/harrison/turing/mod3/projects/ROR-Backend/app/models/meal_plan.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/harrison/turing/mod3/projects/ROR-Backend/app/models/recipe.rb": {
+        "lines": [
+          1,
+          1,
           1,
           null
         ]
       }
     },
-    "timestamp": 1618616745
+    "timestamp": 1618619503
   }
 }

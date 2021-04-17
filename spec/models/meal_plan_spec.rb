@@ -1,5 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe MealPlan, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe "relationships" do
+    it { should have_many :meal_plan_recipes }
+    it { should have_many(:recipes).through(:meal_plan_recipes) }
+  end
 end
