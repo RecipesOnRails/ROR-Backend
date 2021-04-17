@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'Recipe Service View', type: :request do
   describe 'happy path' do
     it "returns a single recipe's data in correct format" do
-      response = File.read("spec/fixtures/recipe_call.json")
+      response = File.read("spec/fixtures/recipe_view.json")
 
       stub_request = stub_request(:get, "https://pure-chamber-22336.herokuapp.com/recipes/1").
          with(
