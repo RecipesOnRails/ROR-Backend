@@ -8,6 +8,7 @@ class RecipesController < ApplicationController
 
   def show
     data = RecipesService.recipe_view(params[:id])
+    binding.pry
     recipe = render json: data
   end
 
