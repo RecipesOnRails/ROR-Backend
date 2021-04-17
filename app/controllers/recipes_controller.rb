@@ -1,12 +1,11 @@
 class RecipesController < ApplicationController
   def index
-    validate_params(params)
-    ingredients = params[:ingredient1]
-    recipes = Faraday.get "https://pure-chamber-22336.herokuapp.com/recipes?ingredient1=#{ingredients}"
-    # render json: File.read("spec/fixtures/recipe_call.json")
+    data = RecipesService.recipe_search(params[:ingredient1])
+    render json: data
   end
 
   def show
+
     recipe = render json: "https://pure-chamber-22336.herokuapp.com/recipes/1"
   end
 
