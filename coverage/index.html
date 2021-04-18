@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2021-04-18T12:03:25-06:00">2021-04-18T12:03:25-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2021-04-18T12:28:34-06:00">2021-04-18T12:28:34-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,7 +23,7 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="green">
-  97.63%
+  97.66%
 </span>
 
      </span>
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>169</b> relevant lines,
-    <span class="green"><b>165</b> lines covered</span> and
+    <b>171</b> relevant lines,
+    <span class="green"><b>167</b> lines covered</span> and
     <span class="red"><b>4</b> lines missed. </span>
     (<span class="green">
-  97.63%
+  97.66%
 </span>
 )
   </div>
@@ -117,20 +117,20 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#a6c45a8756ea6e4664bc0888ef98206092ef732a" class="src_link" title="app/poros/recipe_poro.rb">app/poros/recipe_poro.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">15</td>
-            <td class="cell--number">8</td>
-            <td class="cell--number">8</td>
+            <td class="cell--number">17</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">9</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.63</td>
+            <td class="cell--number">1.67</td>
             
           </tr>
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#c4f990bc840068038fccf6e8ed74eabb00dbccb1" class="src_link" title="app/serializers/recipe_poro_serializer.rb">app/serializers/recipe_poro_serializer.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">6</td>
             <td class="cell--number">4</td>
-            <td class="cell--number">3</td>
-            <td class="cell--number">3</td>
+            <td class="cell--number">4</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -786,8 +786,8 @@
     
 
     <div class="t-line-summary">
-      <b>8</b> relevant lines.
-      <span class="green"><b>8</b> lines covered</span> and
+      <b>9</b> relevant lines.
+      <span class="green"><b>9</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -816,7 +816,7 @@
 
             
 
-            <code class="ruby">  attr_reader :name,</code>
+            <code class="ruby">  attr_reader :id,</code>
           </li>
         </div>
       
@@ -827,7 +827,7 @@
 
             
 
-            <code class="ruby">              :recipe_info,</code>
+            <code class="ruby">              :name,</code>
           </li>
         </div>
       
@@ -838,7 +838,7 @@
 
             
 
-            <code class="ruby">              :instructions,</code>
+            <code class="ruby">              :recipe_info,</code>
           </li>
         </div>
       
@@ -849,7 +849,7 @@
 
             
 
-            <code class="ruby">              :ingredients,</code>
+            <code class="ruby">              :instructions,</code>
           </li>
         </div>
       
@@ -860,7 +860,7 @@
 
             
 
-            <code class="ruby">              :nutrients</code>
+            <code class="ruby">              :ingredients,</code>
           </li>
         </div>
       
@@ -871,12 +871,23 @@
 
             
 
+            <code class="ruby">              :nutrients</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
             <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="8">
+          <li class="covered" data-hits="1" data-linenumber="9">
             <span class="hits">1</span>
             
 
@@ -887,24 +898,13 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="9">
-            <span class="hits">2</span>
-            
-
-            
-
-            <code class="ruby">    @name = data[:name]</code>
-          </li>
-        </div>
-      
-        <div>
           <li class="covered" data-hits="2" data-linenumber="10">
             <span class="hits">2</span>
             
 
             
 
-            <code class="ruby">    @recipe_info = data[:recipe_info]</code>
+            <code class="ruby">    @id = data[:id]</code>
           </li>
         </div>
       
@@ -915,7 +915,7 @@
 
             
 
-            <code class="ruby">    @instructions = data[:instructions]</code>
+            <code class="ruby">    @name = data[:name]</code>
           </li>
         </div>
       
@@ -926,7 +926,7 @@
 
             
 
-            <code class="ruby">    @ingredients = data[:ingredients]</code>
+            <code class="ruby">    @recipe_info = data[:recipe_info]</code>
           </li>
         </div>
       
@@ -937,12 +937,34 @@
 
             
 
+            <code class="ruby">    @instructions = data[:instructions]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="14">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    @ingredients = data[:ingredients]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="15">
+            <span class="hits">2</span>
+            
+
+            
+
             <code class="ruby">    @nutrients = data[:nutrients]</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="14">
+          <li class="never" data-hits="" data-linenumber="16">
             
             
 
@@ -953,7 +975,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="15">
+          <li class="never" data-hits="" data-linenumber="17">
             
             
 
@@ -982,8 +1004,8 @@
     
 
     <div class="t-line-summary">
-      <b>3</b> relevant lines.
-      <span class="green"><b>3</b> lines covered</span> and
+      <b>4</b> relevant lines.
+      <span class="green"><b>4</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -1023,12 +1045,34 @@
 
             
 
-            <code class="ruby">  attributes :id, :name, :recipe_info, :ingredients, :instructions, :nutrients</code>
+            <code class="ruby">  set_id :id</code>
           </li>
         </div>
       
         <div>
           <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  attributes :name, :recipe_info, :ingredients, :instructions, :nutrients</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
             
             
 

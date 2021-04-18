@@ -24,8 +24,6 @@ RSpec.describe 'Recipe Service View', type: :request do
         poro = RecipePoro.new(recipe)
         serialized = RecipePoroSerializer.new(poro)
 
-        binding.pry
-
         expect(recipe).to be_a(Hash)
         expect(recipe).to have_key(:name)
         # expect(recipe[:name]).to eq("Tart Green Salad with Avocado Dressing")
