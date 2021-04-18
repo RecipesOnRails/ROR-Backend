@@ -21,6 +21,8 @@ RSpec.describe 'Recipe Service View', type: :request do
 
       VCR.use_cassette("recipe_view_page") do
         recipe = RecipesService.recipe_view(id)
+        poro = RecipePoro.new(recipe)
+        serialized = RecipePoroSerializer.new(poro)
 
         expect(recipe).to be_a(Hash)
         expect(recipe).to have_key(:name)

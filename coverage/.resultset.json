@@ -469,6 +469,10 @@
           null,
           1,
           1,
+          1,
+          1,
+          null,
+          1,
           null,
           1,
           1,
@@ -538,17 +542,29 @@
           null,
           null,
           null,
+          null,
           1,
-          1,
-          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/harrison/turing/mod3/projects/ROR-Backend/app/serializers/recipe_poro_serializer.rb": {
+        "lines": [
           1,
           1,
           1,
           null,
+          1,
           null
         ]
       }
     },
-    "timestamp": 1618767506
+    "timestamp": 1618770514
   }
 }

@@ -9,7 +9,7 @@ class RecipesController < ApplicationController
   def show
     data = RecipesService.recipe_view(params[:id])
     poro = RecipePoro.new(data)
-    render json: RecipeSerializer.new(poro)
+    render json: RecipePoroSerializer.new(poro)
   end
 
   def validate_params(params)
