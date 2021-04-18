@@ -7,7 +7,7 @@ class RecipesService
   end
 
   def self.recipe_view(id)
-    response = Faraday.get "http://recipes/#{id}"
+    response = Faraday.get "https://pure-chamber-22336.herokuapp.com/recipes/#{id}"
     JSON.parse(response.body, symbolize_names: true)
   end
 end
