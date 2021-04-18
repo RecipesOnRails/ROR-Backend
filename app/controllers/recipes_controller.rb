@@ -8,8 +8,8 @@ class RecipesController < ApplicationController
 
   def show
     data = RecipesService.recipe_view(params[:id])
-    binding.pry
-    recipe = render json: data
+    poro = RecipePoro.new(data)
+    recipe = render json: RecipeSerializer.new(poro)
   end
 
   def validate_params(params)

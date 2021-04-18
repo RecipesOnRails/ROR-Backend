@@ -296,12 +296,19 @@
           1,
           1,
           1,
-          1,
           null,
+          null
+        ]
+      },
+      "/Users/harrison/turing/mod3/projects/ROR-Backend/app/serializers/recipe_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
           null
         ]
       }
     },
-    "timestamp": 1618696607
+    "timestamp": 1618762740
   }
 }

@@ -18,23 +18,10 @@ RSpec.describe 'Recipe Serializer', type: :request do
 
         id = 1
         parsed = RecipesService.recipe_view(id)
-        serialized = RecipeSerializer.new(parsed)
-    end
+        poro = RecipePoro.new(parsed)
+        serialized = RecipeSerializer.new(poro)
 
-    it "text" do
-      response = File.read('spec/fixtures/recipe_view.json')
-
-      stub_request(:get, 'http://recipes/1')
-        .with(
-          headers: {
-            'Accept' => '*/*',
-            'Accept-Encoding' => 'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
-            'User-Agent' => 'Faraday v0.9.2'
-          }
-        )
-        .to_return(status: 200, body: response, headers: {})
-
-      get '/recipes/1'
+        binding.pry
     end
   end
 end
