@@ -10,6 +10,7 @@ class RecipesController < ApplicationController
     data = RecipesService.recipe_view(params[:id])
     poro = RecipePoro.new(data)
     render json: poro
+  end
 
   def validate_params(params)
     ingredients = []
