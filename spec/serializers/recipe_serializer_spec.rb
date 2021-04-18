@@ -20,8 +20,6 @@ RSpec.describe 'Recipe Serializer', type: :request do
         parsed = RecipesService.recipe_view(id)
         poro = RecipePoro.new(parsed)
         serialized = RecipeSerializer.new(poro)
-
-        binding.pry
     end
   end
 end
