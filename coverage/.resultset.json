@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/config/environment.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/config/environment.rb": {
         "lines": [
           null,
           null,
@@ -12,7 +12,7 @@
           1
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/config/application.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/config/application.rb": {
         "lines": [
           null,
           null,
@@ -53,7 +53,7 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/config/boot.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/config/boot.rb": {
         "lines": [
           null,
           null,
@@ -63,7 +63,7 @@
           1
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/config/environments/test.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/config/environments/test.rb": {
         "lines": [
           null,
           null,
@@ -115,7 +115,7 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/config/initializers/application_controller_renderer.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/config/initializers/application_controller_renderer.rb": {
         "lines": [
           null,
           null,
@@ -128,7 +128,7 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/config/initializers/backtrace_silencers.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/config/initializers/backtrace_silencers.rb": {
         "lines": [
           null,
           null,
@@ -140,7 +140,7 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/config/initializers/cors.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/config/initializers/cors.rb": {
         "lines": [
           null,
           null,
@@ -161,7 +161,7 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/config/initializers/filter_parameter_logging.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -171,7 +171,7 @@
           1
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/config/initializers/inflections.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -192,7 +192,7 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/config/initializers/mime_types.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/config/initializers/mime_types.rb": {
         "lines": [
           null,
           null,
@@ -201,7 +201,7 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/config/initializers/wrap_parameters.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
           null,
@@ -221,7 +221,7 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/spec/factories/meal_plan_recipes.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/spec/factories/meal_plan_recipes.rb": {
         "lines": [
           null,
           null,
@@ -231,18 +231,7 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/spec/factories/meal_plans.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/spec/factories/recipes.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/spec/factories/meal_plans.rb": {
         "lines": [
           null,
           null,
@@ -253,7 +242,18 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/config/routes.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/spec/factories/recipes.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/config/routes.rb": {
         "lines": [
           null,
           null,
@@ -261,43 +261,14 @@
           null,
           1,
           1,
-          null
-        ]
-      },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/app/models/meal_plan_recipe.rb": {
-        "lines": [
-          null,
-          null,
           1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/app/models/application_record.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/spec/models/meal_plan_spec.rb": {
-        "lines": [
-          null,
-          null,
           1,
           null,
-          1,
-          1,
-          2,
-          2,
           null,
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/app/models/meal_plan.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/app/models/meal_plan_recipe.rb": {
         "lines": [
           null,
           null,
@@ -307,7 +278,16 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/spec/models/recipe_spec.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/app/models/application_record.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/spec/models/meal_plan_spec.rb": {
         "lines": [
           null,
           null,
@@ -321,7 +301,7 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/app/models/recipe.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/app/models/meal_plan.rb": {
         "lines": [
           null,
           null,
@@ -331,7 +311,31 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/spec/poros/recipe_spec.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/spec/models/recipe_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/app/models/recipe.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/spec/poros/recipe_spec.rb": {
         "lines": [
           1,
           null,
@@ -371,7 +375,7 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/spec/serializers/recipe_serializer_spec.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/spec/serializers/recipe_serializer_spec.rb": {
         "lines": [
           1,
           null,
@@ -400,7 +404,7 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/spec/services/recipes_service_spec.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/spec/services/recipes_service_spec.rb": {
         "lines": [
           null,
           null,
@@ -444,7 +448,7 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/spec/services/recipes_view_spec.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/spec/services/recipes_view_spec.rb": {
         "lines": [
           null,
           null,
@@ -470,8 +474,6 @@
           1,
           1,
           1,
-          1,
-          null,
           1,
           null,
           1,
@@ -516,7 +518,7 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/app/services/recipes_service.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/app/services/recipes_service.rb": {
         "lines": [
           null,
           null,
@@ -533,7 +535,7 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/app/poros/recipe_poro.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/app/poros/recipe_poro.rb": {
         "lines": [
           1,
           1,
@@ -554,7 +556,7 @@
           null
         ]
       },
-      "/Users/harrison/turing/mod3/projects/ROR-Backend/app/serializers/recipe_poro_serializer.rb": {
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/app/serializers/recipe_poro_serializer.rb": {
         "lines": [
           1,
           1,
@@ -565,6 +567,6 @@
         ]
       }
     },
-    "timestamp": 1618770514
+    "timestamp": 1618850471
   }
 }
