@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class RecipesController < ApplicationController
+class Api::V1::RecipesController < ApplicationController
   def index
     data = RecipesService.recipe_search(params[:ingredient1])
     render json: data
