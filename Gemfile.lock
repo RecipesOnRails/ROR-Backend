@@ -110,6 +110,18 @@ GEM
     jbuilder (2.11.2)
       activesupport (>= 5.0.0)
     json (1.8.6)
+    kaminari (1.2.1)
+      activesupport (>= 4.1.0)
+      kaminari-actionview (= 1.2.1)
+      kaminari-activerecord (= 1.2.1)
+      kaminari-core (= 1.2.1)
+    kaminari-actionview (1.2.1)
+      actionview
+      kaminari-core (= 1.2.1)
+    kaminari-activerecord (1.2.1)
+      activerecord
+      kaminari-core (= 1.2.1)
+    kaminari-core (1.2.1)
     launchy (2.5.0)
       addressable (~> 2.7)
     listen (3.1.5)
@@ -290,6 +302,7 @@ DEPENDENCIES
   figaro
   jbuilder (~> 2.5)
   json (~> 1.8, >= 1.8.3)
+  kaminari
   launchy
   listen (>= 3.0.5, < 3.2)
   pg
