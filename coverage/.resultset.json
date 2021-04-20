@@ -268,6 +268,31 @@
           null
         ]
       },
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/app/facades/recipes_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/spec/models/meal_plan_recipe_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
       "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/app/models/meal_plan_recipe.rb": {
         "lines": [
           null,
@@ -335,6 +360,90 @@
           null
         ]
       },
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/spec/poros/ingredient_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/app/poros/ingredient.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          33,
+          33,
+          null,
+          null
+        ]
+      },
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/spec/poros/instruction_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/app/poros/instruction.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          33,
+          33,
+          null,
+          null
+        ]
+      },
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/spec/poros/nutrient_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/app/poros/nutrient.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          117,
+          117,
+          null,
+          null
+        ]
+      },
       "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/spec/poros/recipe_spec.rb": {
         "lines": [
           1,
@@ -364,11 +473,18 @@
           null,
           1,
           null,
+          null,
           1,
           1,
           1,
+          8,
+          null,
           1,
+          8,
+          null,
           1,
+          29,
+          null,
           null,
           null,
           null,
@@ -382,25 +498,27 @@
           1,
           1,
           1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
           null,
           null,
           null,
+          null
+        ]
+      },
+      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/app/serializers/recipe_poro_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          0,
-          0,
-          0,
-          0,
-          null,
-          null,
+          1,
           null
         ]
       },
@@ -415,34 +533,23 @@
           1,
           1,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
           1,
           1,
           null,
           1,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          68,
+          68,
+          68,
+          68,
+          68,
+          68,
+          68,
+          68,
+          68,
+          68,
+          null,
+          null,
           null,
           null,
           null
@@ -458,16 +565,6 @@
           1,
           1,
           1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           null,
           1,
           null,
@@ -529,8 +626,14 @@
           null,
           null,
           1,
-          2,
-          2,
+          3,
+          3,
+          null,
+          null,
+          1,
+          null,
+          1,
+          4,
           null,
           null
         ]
@@ -546,27 +649,34 @@
           null,
           null,
           1,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
           null,
-          null
-        ]
-      },
-      "/Users/trevorrobinson/turing/mod3/projects/project_3/ROR-Backend/app/serializers/recipe_poro_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          1,
           null,
           1,
+          4,
+          32,
+          null,
+          null,
+          null,
+          1,
+          4,
+          32,
+          null,
+          null,
+          1,
+          4,
+          116,
+          null,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1618850471
+    "timestamp": 1618877789
   }
 }

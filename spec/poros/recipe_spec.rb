@@ -25,11 +25,18 @@ RSpec.describe 'Recipe Poro', type: :request do
 
         recipe = RecipePoro.new(data)
 
+
         expect(recipe.name).to eq(data[:name])
         expect(recipe.recipe_info).to eq(data[:recipe_info])
-        expect(recipe.instructions).to eq(data[:instructions])
-        expect(recipe.ingredients).to eq(data[:ingredients])
-        expect(recipe.nutrients).to eq(data[:nutrients])
+        recipe.instructions.each do |instruction|
+          expect(instruction).to be_a(Instruction)
+        end
+        recipe.ingredients.each do |ingredient|
+          expect(ingredient).to be_a(Ingredient)
+        end
+        recipe.nutrients.each do |nutrient|
+          expect(nutrient).to be_a(Nutrient)
+        end
       end
     end
   end
