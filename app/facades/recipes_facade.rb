@@ -4,4 +4,11 @@ class RecipesFacade
     poro = RecipePoro.new(data)
   end
 
+  def self.parse_recipe_search(ingredient)
+    data = RecipesService.recipe_search(ingredient)
+    data.map do |result|
+      Result.new(result)
+    end
+  end
+
 end
