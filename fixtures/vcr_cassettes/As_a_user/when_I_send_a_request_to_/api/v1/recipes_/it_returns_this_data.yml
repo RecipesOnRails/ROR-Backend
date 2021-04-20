@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pure-chamber-22336.herokuapp.com/api/v1/search/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: 'Not Found '
+    headers:
+      Connection:
+      - keep-alive
+      X-Cascade:
+      - pass
+      Content-Type:
+      - text/html;charset=utf-8
+      Content-Length:
+      - '19'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server:
+      - WEBrick/1.4.2 (Ruby/2.5.3/2018-10-18)
+      Date:
+      - Tue, 20 Apr 2021 16:50:53 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: GET /api/v1/search/
+  recorded_at: Tue, 20 Apr 2021 16:50:53 GMT
+recorded_with: VCR 6.0.0

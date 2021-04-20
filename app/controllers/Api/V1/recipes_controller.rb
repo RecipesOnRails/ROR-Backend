@@ -2,8 +2,9 @@
 
 class Api::V1::RecipesController < ApplicationController
   def index
-    render json: RecipesService.recipe_search(params[:ingredient1])
-
+    data = RecipesService.recipe_search(params[:ingredient])
+    paginated_data = Kaminari.paginate_array(data).page(params[:page]).per(20)
+    render json: paginated_data
   end
 
   def show
