@@ -10,5 +10,4 @@ class RecipesFacade
       Result.new(result)
     end
   end
-
 end

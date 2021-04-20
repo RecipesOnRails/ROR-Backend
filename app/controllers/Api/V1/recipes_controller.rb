@@ -4,7 +4,7 @@ class Api::V1::RecipesController < ApplicationController
   def index
     data = RecipesFacade.parse_recipe_search(params[:ingredient])
     paginated_data = Kaminari.paginate_array(data).page(params[:page]).per(20)
-    render json: paginated_data
+    render json: ResultSerializer.new(paginated_data)
   end
 
   def show
