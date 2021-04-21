@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class Api::V1::RecipesController < ApplicationController
   def index
     data = RecipesFacade.parse_recipe_search(params[:ingredient])
