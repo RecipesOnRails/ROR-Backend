@@ -24,6 +24,5 @@
 
 # Ignore application configuration
 /config/application.yml
-/coverage
-coverage
-/spec/fixtures/vcr_cassettes
+
+/coverage/*

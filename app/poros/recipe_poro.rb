@@ -26,6 +26,7 @@ class RecipePoro
       Ingredient.new(ingredient)
     end
   end
+  
   def new_recipe_nutrients(data)
     data.map do |nutrient|
       Nutrient.new(nutrient)
