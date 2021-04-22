@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://pure-chamber-22336.herokuapp.com/api/v1/recipes/8
+    uri: https://pure-chamber-22336.herokuapp.com/api/v1/search/?diet
     body:
       encoding: US-ASCII
       string: ''
@@ -15,25 +15,31 @@ http_interactions:
       - "*/*"
   response:
     status:
-      code: 500
-      message: 'Internal Server Error '
+      code: 404
+      message: 'Not Found '
     headers:
       Connection:
       - keep-alive
+      X-Cascade:
+      - pass
       Content-Type:
-      - application/json
+      - text/html;charset=utf-8
       Content-Length:
       - '30'
+      X-Xss-Protection:
+      - 1; mode=block
       X-Content-Type-Options:
       - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
       Server:
       - WEBrick/1.4.2 (Ruby/2.5.3/2018-10-18)
       Date:
-      - Thu, 22 Apr 2021 20:23:25 GMT
+      - Thu, 22 Apr 2021 20:23:24 GMT
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
       string: Your recipe could not be found
-  recorded_at: Thu, 22 Apr 2021 20:23:25 GMT
+  recorded_at: Thu, 22 Apr 2021 20:23:24 GMT
 recorded_with: VCR 6.0.0

@@ -6,8 +6,10 @@ class RecipesFacade
 
   def self.parse_recipe_search(ingredient, diet = nil)
     data = RecipesService.recipe_search(ingredient, diet)
-    data.map do |result|
-      Result.new(result)
+    if data != nil
+      data[:data].map do |result|
+        Result.new(result)
+      end  
     end
   end
 end

@@ -10,28 +10,45 @@ RSpec.describe 'Recipe Service Search', type: :request do
         ingredient = 'chicken'
         recipes = RecipesService.recipe_search(ingredient)
 
-        expect(recipes).to be_a(Array)
-        recipes.each do |recipe|
-          expect(recipe).to have_key(:title)
-          expect(recipe[:title]).to be_a(String)
-          expect(recipe).to have_key(:image)
-          expect(recipe[:image]).to be_a(String)
-          expect(recipe).to have_key(:cuisine)
-          expect(recipe[:cuisine]).to be_a(String).or eq(nil)
-          expect(recipe).to have_key(:id)
-          expect(recipe[:id]).to be_a(Integer)
-          expect(recipe).to have_key(:calories)
-          expect(recipe[:id]).to be_a(Integer)
+        expect(recipes[:data]).to be_a(Array)
+        recipes[:data].each do |recipe|
+          expect(recipe).to have_key(:type)
+          expect(recipe[:type]).to eq("search")
+          expect(recipe[:attributes]).to have_key(:title)
+          expect(recipe[:attributes][:title]).to be_a(String)
+          expect(recipe[:attributes]).to have_key(:image)
+          expect(recipe[:attributes][:image]).to be_a(String)
+          expect(recipe[:attributes]).to have_key(:cuisine)
+          expect(recipe[:attributes][:cuisine]).to be_a(String).or eq(nil)
+          expect(recipe[:attributes]).to have_key(:id)
+          expect(recipe[:attributes][:id]).to be_a(Integer)
+          expect(recipe[:attributes]).to have_key(:calories)
+          expect(recipe[:attributes][:id]).to be_a(Integer)
         end
       end
     end
-    xit 'returns results filtered by diet' do
-      ingredient = 'rice'
-      diet = 'vegan'
-      recipes = RecipesService.recipe_search(ingredient, diet)
+    it 'returns results filtered by diet' do
+      VCR.use_cassette('diet_filter') do
+        ingredient = 'rice'
+        diet = 'vegan'
+        recipes = RecipesService.recipe_search(ingredient, diet)
 
-      expect(recipes).to be_a(Array)
-
+        expect(recipes[:data]).to be_a(Array)
+        recipes[:data].each do |recipe|
+          expect(recipe).to have_key(:type)
+          expect(recipe[:type]).to eq("search")
+          expect(recipe[:attributes]).to have_key(:title)
+          expect(recipe[:attributes][:title]).to be_a(String)
+          expect(recipe[:attributes]).to have_key(:image)
+          expect(recipe[:attributes][:image]).to be_a(String)
+          expect(recipe[:attributes]).to have_key(:cuisine)
+          expect(recipe[:attributes][:cuisine]).to be_a(String).or eq(nil)
+          expect(recipe[:attributes]).to have_key(:id)
+          expect(recipe[:attributes][:id]).to be_a(Integer)
+          expect(recipe[:attributes]).to have_key(:calories)
+          expect(recipe[:attributes][:id]).to be_a(Integer)
+        end  
+      end
     end
   end
 end

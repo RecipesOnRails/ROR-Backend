@@ -6,11 +6,11 @@ class Result
               :id
 
   def initialize(data)
-    @title = data[:title]
-    @image = data[:image]
-    @cuisine = data[:cuisine]
-    @calories = data[:calories]
-    @id = data[:id]
+    @title = data[:attributes][:title]
+    @image = data[:attributes][:image]
+    @cuisine = data[:attributes][:cuisine]
+    @calories = data[:attributes][:calories]
+    @id = data[:attributes][:id]
 
   end
 

@@ -1,8 +1,12 @@
 class Api::V1::RecipesController < ApplicationController
   def index
     data = RecipesFacade.parse_recipe_search(params[:ingredient], params[:diet])
-    paginated_data = Kaminari.paginate_array(data).page(params[:page]).per(20)
-    render json: ResultSerializer.new(paginated_data)
+    if data.nil?
+      render json: "Invalid Search", status: 404
+    else
+      paginated_data = Kaminari.paginate_array(data).page(params[:page]).per(20)
+      render json: ResultSerializer.new(paginated_data)
+    end  
   end
 
   def show
