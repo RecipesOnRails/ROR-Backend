@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pure-chamber-22336.herokuapp.com/api/v1/recipes/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: 'Created '
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3571'
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - WEBrick/1.4.2 (Ruby/2.5.3/2018-10-18)
+      Date:
+      - Thu, 22 Apr 2021 00:05:29 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"1","type":"recipe","attributes":{"id":1,"name":"Fried
+        Anchovies with Sage","image":"https://spoonacular.com/recipeImages/1-556x370.jpg","recipe_info":"Fried
+        Anchovies with Sage might be just the main course you are searching for. One
+        portion of this dish contains roughly \u003cb\u003e37g of protein\u003c/b\u003e,
+        \u003cb\u003e11g of fat\u003c/b\u003e, and a total of \u003cb\u003e384 calories\u003c/b\u003e.
+        This recipe serves 3 and costs $5.61 per serving. Head to the store and pick
+        up anchovies, sage leaves, seltzer water, and a few other things to make it
+        today. To use up the baking powder you could follow this main course with
+        the \u003ca href=\"https://spoonacular.com/recipes/simple-raspberry-lemon-cake-671414\"\u003eSimple
+        Raspberry Lemon Cake\u003c/a\u003e as a dessert. 2 people have tried and liked
+        this recipe. From preparation to the plate, this recipe takes approximately
+        \u003cb\u003e45 minutes\u003c/b\u003e. With a spoonacular \u003cb\u003escore
+        of 73%\u003c/b\u003e, this dish is good. Try \u003ca href=\"https://spoonacular.com/recipes/fried-sage-with-anchovies-493285\"\u003eFried
+        Sage With Anchovies\u003c/a\u003e, \u003ca href=\"https://spoonacular.com/recipes/veal-shanks-with-olives-anchovies-and-sage-597839\"\u003eVeal
+        Shanks with Olives, Anchovies, and Sage\u003c/a\u003e, and \u003ca href=\"https://spoonacular.com/recipes/homemade-spaghetti-with-shallots-sage-lemons-anchovies-568523\"\u003eHomemade
+        Spaghetti with Shallots, Sage, Lemons \u0026 Anchovies\u003c/a\u003e for similar
+        recipes.","instructions":[{"step":1,"instruction":"If you have not tried anchovies
+        before - you must try them now! Get over any weird apprehensions or that its
+        just bait or a punchline for a joke about pizza (\"extra anchovies\")! These
+        little suckers are delicious \u0026amp; actually good for you!"},{"step":2,"instruction":"Baked,
+        fried \u0026amp; grilled - they are ohh so good and worth a try. If your not
+        up to it, then pass me your plate because I love''em!Here is my favorite -
+        Fried Anchovies - the recipe below adds a sage leave to each piece of fish
+        as well for an extra burst of flavor \u0026amp; color.Fried Anchovies with
+        Sage"},{"step":3,"instruction":"Acciughe fritte con Salvia1lb of anchovies
+        cleaned, spine removedsage leaves (optional - if you are not a fan of sage
+        just omit)batter1 cup of flour1 egg1 teaspoon of salt1 teaspoon of baking
+        powderseltzer watervegetable oil for frying"},{"step":4,"instruction":"In
+        a bowl combine flour, eggs, salt \u0026amp; baking powder. Slowly add in seltzer
+        water \u0026amp; mix until forms a thin batter. Cover with plastic \u0026amp;
+        set in the fridge for at least an hour."},{"step":5,"instruction":"Heat oil
+        in a pot to 350 degree."},{"step":6,"instruction":"Remove batter from fridge
+        and mix once or twice (batter will have separated).Take a sage leaf \u0026amp;
+        anchovy put them together \u0026amp; dip into the batter - allowing access
+        batter to drip off.Fry 20 seconds a side until golden brown."},{"step":7,"instruction":"Remove
+        from oil \u0026amp; drain on a paper towel."},{"step":8,"instruction":"Sprinkle
+        with salt \u0026amp; serve immediately.Pairs great with prosecco or white
+        wine."}],"ingredients":[{"name":"anchovies","amount":"1.0 lb"},{"name":"low
+        sodium baking powder","amount":"1.0 teaspoon"},{"name":"egg","amount":"1.0
+        "},{"name":"wheat flour","amount":"1.0 cup"},{"name":"sage","amount":"1.0
+        leaves"},{"name":"salt","amount":"1.0 teaspoon"},{"name":"sparkling water","amount":"3.0
+        servings"},{"name":"vegetable oil","amount":"3.0 servings"}],"nutrients":[]}}}'
+  recorded_at: Thu, 22 Apr 2021 00:05:29 GMT
+recorded_with: VCR 6.0.0

@@ -13,6 +13,7 @@ RSpec.describe 'Recipe Poro', type: :request do
 
         expect(recipe.name).to eq(data[:name])
         expect(recipe.recipe_info).to eq(data[:recipe_info])
+        expect(recipe.image).to eq(data[:image])
         recipe.instructions.each do |instruction|
           expect(instruction).to be_a(Instruction)
         end

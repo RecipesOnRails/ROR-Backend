@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pure-chamber-22336.herokuapp.com/api/v1/recipes/6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: 'Created '
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2673'
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - WEBrick/1.4.2 (Ruby/2.5.3/2018-10-18)
+      Date:
+      - Thu, 22 Apr 2021 00:05:28 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"6","type":"recipe","attributes":{"id":6,"name":"Fried
+        Anchovies","image":"https://spoonacular.com/recipeImages/6-556x370.jpg","recipe_info":"Fried
+        Anchovies requires around \u003cb\u003e15 minutes\u003c/b\u003e from start
+        to finish. This recipe serves 15. One portion of this dish contains approximately
+        \u003cb\u003e9g of protein\u003c/b\u003e, \u003cb\u003e31g of fat\u003c/b\u003e,
+        and a total of \u003cb\u003e352 calories\u003c/b\u003e. For \u003cb\u003e$1.49
+        per serving\u003c/b\u003e, this recipe \u003cb\u003ecovers 8%\u003c/b\u003e
+        of your daily requirements of vitamins and minerals. This recipe is liked
+        by 1 foodies and cooks. It is a good option if you''re following a \u003cb\u003edairy
+        free and pescatarian\u003c/b\u003e diet. Head to the store and pick up crusty
+        bread, cayenne pepper, flour, and a few other things to make it today. It
+        is brought to you by SippitySup. Overall, this recipe earns a \u003cb\u003egood
+        spoonacular score of 42%\u003c/b\u003e. Similar recipes include \u003ca href=\"https://spoonacular.com/recipes/fried-anchovies-253335\"\u003eFried
+        Anchovies\u003c/a\u003e, \u003ca href=\"https://spoonacular.com/recipes/fried-sage-with-anchovies-493285\"\u003eFried
+        Sage With Anchovies\u003c/a\u003e, and \u003ca href=\"https://spoonacular.com/recipes/fried-anchovies-with-sage-1\"\u003eFried
+        Anchovies with Sage\u003c/a\u003e.","instructions":[{"step":1,"instruction":"If
+        you are using whole, fresh anchovies you must clean them first. Pull off the
+        heads and pull out the insides. Then rinse with clean water."},{"step":2,"instruction":"Pour
+        the olive oil into a small deep saucepan set over heat. Use a deep fry thermometer
+        to monitor the heat.Meanwhile, add the eggs to a small bowl and beat until
+        well mixed."},{"step":3,"instruction":"Add the flour, cayenne, salt and black
+        pepper to a shallow bowl, use a fork to mix the ingredients together. Dip
+        the fish one at a time into the beaten eggs and then roll it in flour.When
+        the oil reaches 365 degrees F. fry the fish a few at a time, rolling them
+        around in the oil to assure even cooking until they are golden brown (about
+        5-8 minutes)."},{"step":4,"instruction":"Serve with crusty bread, extra-virgin
+        olive oil for dipping the bread (optional) and tomatoes."}],"ingredients":[{"name":"anchovies","amount":"1.0
+        lb"},{"name":"ground cayenne pepper","amount":"0.25 t"},{"name":"cherry tomato","amount":"0.0
+        "},{"name":"crusty bread","amount":"0.0 "},{"name":"egg","amount":"3.0 large"},{"name":"extra
+        virgin olive oil","amount":"0.0 "},{"name":"wheat flour","amount":"1.5 c"},{"name":"olive
+        oil","amount":"2.0 c"},{"name":"salt and pepper","amount":"0.0 "}],"nutrients":[]}}}'
+  recorded_at: Thu, 22 Apr 2021 00:05:28 GMT
+recorded_with: VCR 6.0.0
