@@ -89,11 +89,22 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
+* **Megan Gonzales** -- [GitHub](https://github.com/MGonzales26) |
+  [LinkedIn](https://www.linkedin.com/in/megan-e-gonzales/)
+* **Jacob Arellano** -- [GitHub](https://github.com/jakejakearell) |
+  [LinkedIn](https://www.linkedin.com/in/jacob-arellano-ab2890207/)
+* **Arika Blenker** -- [GitHub](https://github.com/arikalea) |
+  [LinkedIn](https://www.linkedin.com/in/arika-blenker/)
+* **Harrison Blake** -- [GitHub](https://github.com/harrison-blake) |
+  [LinkedIn](https://www.linkedin.com/in/harrison-blake-802094200/)
+* **Hope McGee** -- [GitHub](https://github.com/hopesgit) |
+  [LinkedIn](https://www.linkedin.com/in/hope-mcgee/)
+* **Trevor Robinson** -- [GitHub](https://github.com/Trevor-Robinson) |
+  [LinkedIn](https://www.linkedin.com/in/trevor-robinson-0bb251207/)
+* **Jeremiah Michlitsch** -- [GitHub](https://github.com/jmichlitsch) |
+  [LinkedIn](https://www.linkedin.com/in/jeremiah-michlitsch-49048a206/)
+  
+See also the list of [contributors](https://github.com/RecipesOnRails/ROR-Front-End/graphs/contributors)
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
