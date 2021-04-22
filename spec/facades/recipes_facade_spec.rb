@@ -1,10 +1,10 @@
 require 'rails_helper'
 RSpec.describe RecipesFacade, type: :class do
   it 'can parse recipe data' do
-    
-    recipe_info = File.read('./spec/fixtures/recipe_view.json')
+
+    recipe_info = JSON.parse(File.read('./spec/fixtures/recipe_view.json'), symbolize_names: true)
     allow(RecipesService).to receive(:recipe_view).and_return(recipe_info)
-    results = RecipesFacade.parse_recipe_details(id)
+    results = RecipesFacade.parse_recipe_details(123)
 
     expect(results).to be_a(RecipePoro)
 
