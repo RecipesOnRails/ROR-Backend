@@ -7,7 +7,6 @@ describe 'As a user' do
         VCR.use_cassette('search_facade') do
           get '/api/v1/recipes', params: {  ingredient: 'chicken'  }
           parsed_response = JSON.parse(response.body, symbolize_names: true)[:data]
-
           expect(response).to have_http_status(:success)
 
           expect(parsed_response).to be_an(Array)
@@ -33,7 +32,11 @@ describe 'As a user' do
 
   describe 'sad path' do
     it 'returns an error' do
-      
+      VCR.use_cassette('search_error') do
+        get '/api/v1/recipes', params: {  ingredient: '' }
+        expect(response).to have_http_status(404)
+        expect(response.body).to eq("Invalid Search")
+      end
     end
   end
 end

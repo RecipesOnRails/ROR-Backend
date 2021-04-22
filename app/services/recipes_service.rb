@@ -4,8 +4,8 @@ class RecipesService
   def self.recipe_search(ingredient, diet = nil)
     response = connection.get "/api/v1/search/#{ingredient}" do |req|
       req.params["diet"] = diet
-    end  
-    JSON.parse(response.body, symbolize_names: true)
+    end
+    JSON.parse(response.body, symbolize_names: true) if response.status != 404
   end
 
   def self.recipe_view(id)

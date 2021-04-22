@@ -1,0 +1,752 @@
+{
+    "data": [
+        {
+            "id": "716268",
+            "type": "search",
+            "attributes": {
+                "id": 716268,
+                "title": "African Chicken Peanut Stew",
+                "image": "https://spoonacular.com/recipeImages/716268-312x231.jpg",
+                "cuisine": "African",
+                "calories": 1204.74
+            }
+        },
+        {
+            "id": "635675",
+            "type": "search",
+            "attributes": {
+                "id": 635675,
+                "title": "Boozy Bbq Chicken",
+                "image": "https://spoonacular.com/recipeImages/635675-312x231.jpg",
+                "cuisine": null,
+                "calories": 723.74
+            }
+        },
+        {
+            "id": "633624",
+            "type": "search",
+            "attributes": {
+                "id": 633624,
+                "title": "Baked Fried Chicken With Cauliflower Mash",
+                "image": "https://spoonacular.com/recipeImages/633624-312x231.jpg",
+                "cuisine": "Southern",
+                "calories": 660.56
+            }
+        },
+        {
+            "id": "665261",
+            "type": "search",
+            "attributes": {
+                "id": 665261,
+                "title": "Whole Chicken Dinner",
+                "image": "https://spoonacular.com/recipeImages/665261-312x231.jpg",
+                "cuisine": null,
+                "calories": 1105.41
+            }
+        },
+        {
+            "id": "716427",
+            "type": "search",
+            "attributes": {
+                "id": 716427,
+                "title": "Roasted Butterflied Chicken w. Onions & Carrots",
+                "image": "https://spoonacular.com/recipeImages/716427-312x231.jpg",
+                "cuisine": null,
+                "calories": 674.98
+            }
+        },
+        {
+            "id": "633524",
+            "type": "search",
+            "attributes": {
+                "id": 633524,
+                "title": "Baked Chicken In Roasting Bag",
+                "image": "https://spoonacular.com/recipeImages/633524-312x231.jpg",
+                "cuisine": null,
+                "calories": 489.46
+            }
+        },
+        {
+            "id": "641072",
+            "type": "search",
+            "attributes": {
+                "id": 641072,
+                "title": "Curried Chickpeas and Vegetables",
+                "image": "https://spoonacular.com/recipeImages/641072-312x231.jpg",
+                "cuisine": null,
+                "calories": 341.08
+            }
+        },
+        {
+            "id": "649430",
+            "type": "search",
+            "attributes": {
+                "id": 649430,
+                "title": "Leek and Chicken Soup",
+                "image": "https://spoonacular.com/recipeImages/649430-312x231.jpg",
+                "cuisine": null,
+                "calories": 595.35
+            }
+        },
+        {
+            "id": "634618",
+            "type": "search",
+            "attributes": {
+                "id": 634618,
+                "title": "Beef Green Chile Stew",
+                "image": "https://spoonacular.com/recipeImages/634618-312x231.jpg",
+                "cuisine": null,
+                "calories": 377.69
+            }
+        },
+        {
+            "id": "663971",
+            "type": "search",
+            "attributes": {
+                "id": 663971,
+                "title": "Turbo Chicken",
+                "image": "https://spoonacular.com/recipeImages/663971-312x231.jpg",
+                "cuisine": null,
+                "calories": 729.9
+            }
+        },
+        {
+            "id": "634753",
+            "type": "search",
+            "attributes": {
+                "id": 634753,
+                "title": "Beer Can Chicken, Country Style Vegetables with Roasted Garlic",
+                "image": "https://spoonacular.com/recipeImages/634753-312x231.jpg",
+                "cuisine": null,
+                "calories": 821.35
+            }
+        },
+        {
+            "id": "639616",
+            "type": "search",
+            "attributes": {
+                "id": 639616,
+                "title": "Classic Matzo Ball Soup",
+                "image": "https://spoonacular.com/recipeImages/639616-312x231.jpg",
+                "cuisine": null,
+                "calories": 634.92
+            }
+        },
+        {
+            "id": "716342",
+            "type": "search",
+            "attributes": {
+                "id": 716342,
+                "title": "Chicken Suya",
+                "image": "https://spoonacular.com/recipeImages/716342-312x231.jpg",
+                "cuisine": null,
+                "calories": 523.01
+            }
+        },
+        {
+            "id": "657579",
+            "type": "search",
+            "attributes": {
+                "id": 657579,
+                "title": "Quick Chicken Enchilada Soup",
+                "image": "https://spoonacular.com/recipeImages/657579-312x231.jpg",
+                "cuisine": "Mexican",
+                "calories": 485.6
+            }
+        },
+        {
+            "id": "660220",
+            "type": "search",
+            "attributes": {
+                "id": 660220,
+                "title": "Skillet Roasted Chicken & Potatoes",
+                "image": "https://spoonacular.com/recipeImages/660220-312x231.jpg",
+                "cuisine": null,
+                "calories": 738.08
+            }
+        },
+        {
+            "id": "660286",
+            "type": "search",
+            "attributes": {
+                "id": 660286,
+                "title": "Slow Cooker Chicken Verde Enchilada",
+                "image": "https://spoonacular.com/recipeImages/660286-312x231.jpg",
+                "cuisine": "Mexican",
+                "calories": 842.81
+            }
+        },
+        {
+            "id": "649985",
+            "type": "search",
+            "attributes": {
+                "id": 649985,
+                "title": "Light and Chunky Chicken Soup",
+                "image": "https://spoonacular.com/recipeImages/649985-312x231.jpg",
+                "cuisine": null,
+                "calories": 430.08
+            }
+        },
+        {
+            "id": "157375",
+            "type": "search",
+            "attributes": {
+                "id": 157375,
+                "title": "Steamy Creamy Mushroom Risotto",
+                "image": "https://spoonacular.com/recipeImages/157375-312x231.jpg",
+                "cuisine": "Mediterranean",
+                "calories": 959.68
+            }
+        },
+        {
+            "id": "660133",
+            "type": "search",
+            "attributes": {
+                "id": 660133,
+                "title": "Simple Roast Chicken",
+                "image": "https://spoonacular.com/recipeImages/660133-312x231.jpg",
+                "cuisine": null,
+                "calories": 681.39
+            }
+        },
+        {
+            "id": "654184",
+            "type": "search",
+            "attributes": {
+                "id": 654184,
+                "title": "Oven Braised Lemon Chicken",
+                "image": "https://spoonacular.com/recipeImages/654184-312x231.jpg",
+                "cuisine": null,
+                "calories": 206.1
+            }
+        },
+        {
+            "id": "648097",
+            "type": "search",
+            "attributes": {
+                "id": 648097,
+                "title": "Italian Chicken With Pepper",
+                "image": "https://spoonacular.com/recipeImages/648097-312x231.jpg",
+                "cuisine": "Mediterranean",
+                "calories": 490.47
+            }
+        },
+        {
+            "id": "633538",
+            "type": "search",
+            "attributes": {
+                "id": 633538,
+                "title": "Baked Chicken with Cinnamon Apples",
+                "image": "https://spoonacular.com/recipeImages/633538-312x231.jpg",
+                "cuisine": null,
+                "calories": 611.15
+            }
+        },
+        {
+            "id": "637942",
+            "type": "search",
+            "attributes": {
+                "id": 637942,
+                "title": "Chicken Arrozcaldo",
+                "image": "https://spoonacular.com/recipeImages/637942-312x231.jpg",
+                "cuisine": null,
+                "calories": 482.88
+            }
+        },
+        {
+            "id": "638252",
+            "type": "search",
+            "attributes": {
+                "id": 638252,
+                "title": "Chicken Piri Piri with Spicy Rice",
+                "image": "https://spoonacular.com/recipeImages/638252-312x231.jpg",
+                "cuisine": null,
+                "calories": 776.66
+            }
+        },
+        {
+            "id": "652602",
+            "type": "search",
+            "attributes": {
+                "id": 652602,
+                "title": "Murgh Tandoori",
+                "image": "https://spoonacular.com/recipeImages/652602-312x231.jpg",
+                "cuisine": null,
+                "calories": 586.59
+            }
+        },
+        {
+            "id": "710766",
+            "type": "search",
+            "attributes": {
+                "id": 710766,
+                "title": "Easy Baked Chicken",
+                "image": "https://spoonacular.com/recipeImages/710766-312x231.jpg",
+                "cuisine": null,
+                "calories": 356.19
+            }
+        },
+        {
+            "id": "638566",
+            "type": "search",
+            "attributes": {
+                "id": 638566,
+                "title": "Chili Lime Chicken Burgers",
+                "image": "https://spoonacular.com/recipeImages/638566-312x231.jpg",
+                "cuisine": "American",
+                "calories": 406.88
+            }
+        },
+        {
+            "id": "641904",
+            "type": "search",
+            "attributes": {
+                "id": 641904,
+                "title": "Easy Chicken Tandoori",
+                "image": "https://spoonacular.com/recipeImages/641904-312x231.jpg",
+                "cuisine": "Indian",
+                "calories": 187.62
+            }
+        },
+        {
+            "id": "638074",
+            "type": "search",
+            "attributes": {
+                "id": 638074,
+                "title": "Chicken Enchilada Salad Wraps",
+                "image": "https://spoonacular.com/recipeImages/638074-312x231.jpg",
+                "cuisine": "Mexican",
+                "calories": 520.5
+            }
+        },
+        {
+            "id": "651184",
+            "type": "search",
+            "attributes": {
+                "id": 651184,
+                "title": "Masala Raisin Chicken",
+                "image": "https://spoonacular.com/recipeImages/651184-312x231.jpg",
+                "cuisine": "Indian",
+                "calories": 318.53
+            }
+        },
+        {
+            "id": "638343",
+            "type": "search",
+            "attributes": {
+                "id": 638343,
+                "title": "Chicken Stew For The Soul",
+                "image": "https://spoonacular.com/recipeImages/638343-312x231.jpg",
+                "cuisine": null,
+                "calories": 274.25
+            }
+        },
+        {
+            "id": "660283",
+            "type": "search",
+            "attributes": {
+                "id": 660283,
+                "title": "SLOW COOKER CHICKEN GUMBO SOUP",
+                "image": "https://spoonacular.com/recipeImages/660283-312x231.jpg",
+                "cuisine": "Cajun",
+                "calories": 237.86
+            }
+        },
+        {
+            "id": "648746",
+            "type": "search",
+            "attributes": {
+                "id": 648746,
+                "title": "Karahi Chicken",
+                "image": "https://spoonacular.com/recipeImages/648746-312x231.jpg",
+                "cuisine": null,
+                "calories": 885.85
+            }
+        },
+        {
+            "id": "641901",
+            "type": "search",
+            "attributes": {
+                "id": 641901,
+                "title": "Easy Chicken Pot Pie",
+                "image": "https://spoonacular.com/recipeImages/641901-312x231.jpg",
+                "cuisine": null,
+                "calories": 177.04
+            }
+        },
+        {
+            "id": "641110",
+            "type": "search",
+            "attributes": {
+                "id": 641110,
+                "title": "Curry and Sage Roast Chicken",
+                "image": "https://spoonacular.com/recipeImages/641110-312x231.jpg",
+                "cuisine": "Indian",
+                "calories": 564.34
+            }
+        },
+        {
+            "id": "661556",
+            "type": "search",
+            "attributes": {
+                "id": 661556,
+                "title": "Steamed Chicken With Soy-Ginger Sauce",
+                "image": "https://spoonacular.com/recipeImages/661556-312x231.jpg",
+                "cuisine": null,
+                "calories": 486.05
+            }
+        },
+        {
+            "id": "655793",
+            "type": "search",
+            "attributes": {
+                "id": 655793,
+                "title": "Peruvian Roast Chicken",
+                "image": "https://spoonacular.com/recipeImages/655793-312x231.jpg",
+                "cuisine": null,
+                "calories": 477.07
+            }
+        },
+        {
+            "id": "634481",
+            "type": "search",
+            "attributes": {
+                "id": 634481,
+                "title": "Bbq Chicken and Goat Cheese Ravioli",
+                "image": "https://spoonacular.com/recipeImages/634481-312x231.jpg",
+                "cuisine": "Mediterranean",
+                "calories": 549.61
+            }
+        },
+        {
+            "id": "635263",
+            "type": "search",
+            "attributes": {
+                "id": 635263,
+                "title": "Blackened Cajun Chicken",
+                "image": "https://spoonacular.com/recipeImages/635263-312x231.jpg",
+                "cuisine": "Cajun",
+                "calories": 446.66
+            }
+        },
+        {
+            "id": "640619",
+            "type": "search",
+            "attributes": {
+                "id": 640619,
+                "title": "Creamy Chicken Orzo Soup",
+                "image": "https://spoonacular.com/recipeImages/640619-312x231.jpg",
+                "cuisine": null,
+                "calories": 383.1
+            }
+        },
+        {
+            "id": "715394",
+            "type": "search",
+            "attributes": {
+                "id": 715394,
+                "title": "Chicken Enchilada Casserole",
+                "image": "https://spoonacular.com/recipeImages/715394-312x231.jpg",
+                "cuisine": "Mexican",
+                "calories": 285.78
+            }
+        },
+        {
+            "id": "638125",
+            "type": "search",
+            "attributes": {
+                "id": 638125,
+                "title": "Chicken In A Pot",
+                "image": "https://spoonacular.com/recipeImages/638125-312x231.jpg",
+                "cuisine": null,
+                "calories": 595.86
+            }
+        },
+        {
+            "id": "667707",
+            "type": "search",
+            "attributes": {
+                "id": 667707,
+                "title": "chicken marbella",
+                "image": "https://spoonacular.com/recipeImages/667707-312x231.jpg",
+                "cuisine": null,
+                "calories": 687.31
+            }
+        },
+        {
+            "id": "640722",
+            "type": "search",
+            "attributes": {
+                "id": 640722,
+                "title": "Creamy White Chili",
+                "image": "https://spoonacular.com/recipeImages/640722-312x231.jpg",
+                "cuisine": "American",
+                "calories": 628.06
+            }
+        },
+        {
+            "id": "715532",
+            "type": "search",
+            "attributes": {
+                "id": 715532,
+                "title": "Easy Chicken Fajita Enchiladas",
+                "image": "https://spoonacular.com/recipeImages/715532-312x231.jpg",
+                "cuisine": "Mexican",
+                "calories": 627.01
+            }
+        },
+        {
+            "id": "637932",
+            "type": "search",
+            "attributes": {
+                "id": 637932,
+                "title": "Chicken and White Bean Chili",
+                "image": "https://spoonacular.com/recipeImages/637932-312x231.jpg",
+                "cuisine": "American",
+                "calories": 417.14
+            }
+        },
+        {
+            "id": "643669",
+            "type": "search",
+            "attributes": {
+                "id": 643669,
+                "title": "Fried Bee Hoon/ Vermicelli",
+                "image": "https://spoonacular.com/recipeImages/643669-312x231.jpg",
+                "cuisine": null,
+                "calories": 154.48
+            }
+        },
+        {
+            "id": "663392",
+            "type": "search",
+            "attributes": {
+                "id": 663392,
+                "title": "Three-Cup Chicken",
+                "image": "https://spoonacular.com/recipeImages/663392-312x231.jpg",
+                "cuisine": null,
+                "calories": 402.79
+            }
+        },
+        {
+            "id": "1062882",
+            "type": "search",
+            "attributes": {
+                "id": 1062882,
+                "title": "Easy Slow Cooker Whole Chicken With Rosemary",
+                "image": "https://spoonacular.com/recipeImages/1062882-312x231.jpg",
+                "cuisine": null,
+                "calories": 426.44
+            }
+        },
+        {
+            "id": "652442",
+            "type": "search",
+            "attributes": {
+                "id": 652442,
+                "title": "Moroccan Spiced Chicken Under A Brick",
+                "image": "https://spoonacular.com/recipeImages/652442-312x231.jpg",
+                "cuisine": null,
+                "calories": 487.63
+            }
+        },
+        {
+            "id": "640803",
+            "type": "search",
+            "attributes": {
+                "id": 640803,
+                "title": "Crispy Buttermilk Fried Chicken",
+                "image": "https://spoonacular.com/recipeImages/640803-312x231.jpg",
+                "cuisine": "Southern",
+                "calories": 259.6
+            }
+        },
+        {
+            "id": "645621",
+            "type": "search",
+            "attributes": {
+                "id": 645621,
+                "title": "Grilled Chicken & Corn Red Potato Salad",
+                "image": "https://spoonacular.com/recipeImages/645621-312x231.jpg",
+                "cuisine": null,
+                "calories": 314.04
+            }
+        },
+        {
+            "id": "633569",
+            "type": "search",
+            "attributes": {
+                "id": 633569,
+                "title": "Baked Crusty Chicken",
+                "image": "https://spoonacular.com/recipeImages/633569-312x231.jpg",
+                "cuisine": null,
+                "calories": 366.21
+            }
+        },
+        {
+            "id": "649495",
+            "type": "search",
+            "attributes": {
+                "id": 649495,
+                "title": "Lemon and Garlic Slow Roasted Chicken",
+                "image": "https://spoonacular.com/recipeImages/649495-312x231.jpg",
+                "cuisine": null,
+                "calories": 346.77
+            }
+        },
+        {
+            "id": "1184955",
+            "type": "search",
+            "attributes": {
+                "id": 1184955,
+                "title": "How to Make Grilled Beer Butt Chicken",
+                "image": "https://spoonacular.com/recipeImages/1184955-312x231.jpg",
+                "cuisine": null,
+                "calories": 487.02
+            }
+        },
+        {
+            "id": "646673",
+            "type": "search",
+            "attributes": {
+                "id": 646673,
+                "title": "Herb Roasted Chicken",
+                "image": "https://spoonacular.com/recipeImages/646673-312x231.jpg",
+                "cuisine": null,
+                "calories": 424.73
+            }
+        },
+        {
+            "id": "665734",
+            "type": "search",
+            "attributes": {
+                "id": 665734,
+                "title": "Zucchini Chicken Omelette",
+                "image": "https://spoonacular.com/recipeImages/665734-312x231.jpg",
+                "cuisine": null,
+                "calories": 210.29
+            }
+        },
+        {
+            "id": "649827",
+            "type": "search",
+            "attributes": {
+                "id": 649827,
+                "title": "Lemon, Garlic and Thyme Roast Chicken – Quick and Easy Method",
+                "image": "https://spoonacular.com/recipeImages/649827-312x231.jpg",
+                "cuisine": null,
+                "calories": 428.77
+            }
+        },
+        {
+            "id": "638026",
+            "type": "search",
+            "attributes": {
+                "id": 638026,
+                "title": "Chicken Chili With Black Eyed Peas",
+                "image": "https://spoonacular.com/recipeImages/638026-312x231.jpg",
+                "cuisine": "American",
+                "calories": 188.49
+            }
+        },
+        {
+            "id": "654443",
+            "type": "search",
+            "attributes": {
+                "id": 654443,
+                "title": "Pan-Browned Chicken",
+                "image": "https://spoonacular.com/recipeImages/654443-312x231.jpg",
+                "cuisine": null,
+                "calories": 227.87
+            }
+        },
+        {
+            "id": "632856",
+            "type": "search",
+            "attributes": {
+                "id": 632856,
+                "title": "Asian Orange Noodle Salad",
+                "image": "https://spoonacular.com/recipeImages/632856-312x231.jpg",
+                "cuisine": "Asian",
+                "calories": 25.68
+            }
+        },
+        {
+            "id": "638085",
+            "type": "search",
+            "attributes": {
+                "id": 638085,
+                "title": "Chicken Fajitas By Mommie Cooks",
+                "image": "https://spoonacular.com/recipeImages/638085-312x231.jpg",
+                "cuisine": "Mexican",
+                "calories": 158.44
+            }
+        },
+        {
+            "id": "644785",
+            "type": "search",
+            "attributes": {
+                "id": 644785,
+                "title": "Gluten And Dairy Free Alfredo Lasagna",
+                "image": "https://spoonacular.com/recipeImages/644785-312x231.jpg",
+                "cuisine": "Mediterranean",
+                "calories": 349.95
+            }
+        },
+        {
+            "id": "1171085",
+            "type": "search",
+            "attributes": {
+                "id": 1171085,
+                "title": "How to Make an Easy Chicken Enchilada",
+                "image": "https://spoonacular.com/recipeImages/1171085-312x231.jpg",
+                "cuisine": "Mexican",
+                "calories": 321.37
+            }
+        },
+        {
+            "id": "659180",
+            "type": "search",
+            "attributes": {
+                "id": 659180,
+                "title": "Salsa Verde Chicken Tamales",
+                "image": "https://spoonacular.com/recipeImages/659180-312x231.jpg",
+                "cuisine": "Mexican",
+                "calories": 121.98
+            }
+        },
+        {
+            "id": "632821",
+            "type": "search",
+            "attributes": {
+                "id": 632821,
+                "title": "Asian Chicken Salad",
+                "image": "https://spoonacular.com/recipeImages/632821-312x231.jpg",
+                "cuisine": "Asian",
+                "calories": 132.71
+            }
+        },
+        {
+            "id": "660128",
+            "type": "search",
+            "attributes": {
+                "id": 660128,
+                "title": "Simple Rendang",
+                "image": "https://spoonacular.com/recipeImages/660128-312x231.jpg",
+                "cuisine": null,
+                "calories": 79.46
+            }
+        },
+        {
+            "id": "636411",
+            "type": "search",
+            "attributes": {
+                "id": 636411,
+                "title": "Buffalo Chicken Wings Wonton Wraps",
+                "image": "https://spoonacular.com/recipeImages/636411-312x231.jpg",
+                "cuisine": "Chinese",
+                "calories": 38.57
+            }
+        }
+    ]
+}
