@@ -1,87 +1,29 @@
 require 'rails_helper'
 RSpec.describe RecipesFacade, type: :class do
   it 'can parse recipe data' do
-    allow(RecipesService).to receive(:recipe_view).and_return({:id=>1,
- :name=>"Fried Anchovies with Sage",
- :image=>"https://spoonacular.com/recipeImages/1-556x370.jpg",
- :recipe_info=>
-  "Fried Anchovies with Sage might be just the main course you are searching for. One portion of this dish contains roughly <b>37g of protein</b>, <b>11g of fat</b>, and a total of <b>384 calories</b>. This recipe serves 3 and costs $5.61 per serving. Head to the store and pick up anchovies, sage leaves, seltzer water, and a few other things to make it today. To use up the baking powder you could follow this main course with the <a href=\"https://spoonacular.com/recipes/simple-raspberry-lemon-cake-671414\">Simple Raspberry Lemon Cake</a> as a dessert. 2 people have tried and liked this recipe. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. With a spoonacular <b>score of 73%</b>, this dish is good. Try <a href=\"https://spoonacular.com/recipes/fried-sage-with-anchovies-493285\">Fried Sage With Anchovies</a>, <a href=\"https://spoonacular.com/recipes/veal-shanks-with-olives-anchovies-and-sage-597839\">Veal Shanks with Olives, Anchovies, and Sage</a>, and <a href=\"https://spoonacular.com/recipes/homemade-spaghetti-with-shallots-sage-lemons-anchovies-568523\">Homemade Spaghetti with Shallots, Sage, Lemons & Anchovies</a> for similar recipes.",
- :instructions=>
-  [{:step=>1,
-    :instruction=>
-     "If you have not tried anchovies before - you must try them now! Get over any weird apprehensions or that its just bait or a punchline for a joke about pizza (\"extra anchovies\")! These little suckers are delicious &amp; actually good for you!"},
-   {:step=>2,
-    :instruction=>
-     "Baked, fried &amp; grilled - they are ohh so good and worth a try. If your not up to it, then pass me your plate because I love'em!Here is my favorite - Fried Anchovies - the recipe below adds a sage leave to each piece of fish as well for an extra burst of flavor &amp; color.Fried Anchovies with Sage"},
-   {:step=>3,
-    :instruction=>
-     "Acciughe fritte con Salvia1lb of anchovies cleaned, spine removedsage leaves (optional - if you are not a fan of sage just omit)batter1 cup of flour1 egg1 te
-aspoon of salt1 teaspoon of baking powderseltzer watervegetable oil for frying"},
-   {:step=>4,
-    :instruction=>
-     "In a bowl combine flour, eggs, salt &amp; baking powder. Slowly add in seltzer water &amp; mix until forms a thin batter. Cover with plastic &amp; set in the
- fridge for at least an hour."},
-   {:step=>5, :instruction=>"Heat oil in a pot to 350 degree."},
-   {:step=>6,
-    :instruction=>
-     "Remove batter from fridge and mix once or twice (batter will have separated).Take a sage leaf &amp; anchovy put them together &amp; dip into the batter - all
-owing access batter to drip off.Fry 20 seconds a side until golden brown."},
-   {:step=>7, :instruction=>"Remove from oil &amp; drain on a paper towel."},
-   {:step=>8, :instruction=>"Sprinkle with salt &amp; serve immediately.Pairs great with prosecco or white wine."}],
- :ingredients=>
-  [{:name=>"anchovies", :amount=>"1.0 lb"},
-   {:name=>"low sodium baking powder", :amount=>"1.0 teaspoon"},
-   {:name=>"egg", :amount=>"1.0 "},
-   {:name=>"wheat flour", :amount=>"1.0 cup"},
-   {:name=>"sage", :amount=>"1.0 leaves"},
-   {:name=>"salt", :amount=>"1.0 teaspoon"},
-   {:name=>"sparkling water", :amount=>"3.0 servings"},
-   {:name=>"vegetable oil", :amount=>"3.0 servings"}],
- :nutrients=>
-  [{:name=>"Calories", :amount=>"384.09 kcal"},
-   {:name=>"Fat", :amount=>"10.53 g"},
-   {:name=>"Saturated Fat", :amount=>"3.6 g"},
-   {:name=>"Carbohydrates", :amount=>"32.53 g"},
-   {:name=>"Net Carbohydrates", :amount=>"31.37 g"},
-   {:name=>"Sugar", :amount=>"0.17 g"},
-   {:name=>"Cholesterol", :amount=>"145.28 mg"},
-   {:name=>"Sodium", :amount=>"955.48 mg"},
-   {:name=>"Protein", :amount=>"36.92 g"},
-   {:name=>"Vitamin B3", :amount=>"23.67 mg"},
-   {:name=>"Selenium", :amount=>"73.82 µg"},
-   {:name=>"Phosphorus", :amount=>"428.72 mg"},
-   {:name=>"Iron", :amount=>"7.22 mg"},
-   {:name=>"Vitamin B2", :amount=>"0.66 mg"},
-   {:name=>"Calcium", :amount=>"295.1 mg"},
-   {:name=>"Vitamin B1", :amount=>"0.42 mg"},
-   {:name=>"Folate", :amount=>"96.75 µg"},
-   {:name=>"Potassium", :amount=>"778.81 mg"},
-   {:name=>"Copper", :amount=>"0.43 mg"},
-   {:name=>"Zinc", :amount=>"3.09 mg"},
-   {:name=>"Manganese", :amount=>"0.4 mg"},
-   {:name=>"Magnesium", :amount=>"73.36 mg"},
-   {:name=>"Vitamin B12", :amount=>"1.07 µg"},
-   {:name=>"Vitamin B5", :amount=>"1.38 mg"},
-   {:name=>"Vitamin B6", :amount=>"0.26 mg"},
-   {:name=>"Vitamin E", :amount=>"1.09 mg"},
-   {:name=>"Fiber", :amount=>"1.16 g"},
-   {:name=>"Vitamin A", :amount=>"154.8 IU"},
-   {:name=>"Vitamin D", :amount=>"0.29 µg"}]})
 
-      id = 1
-      results = RecipesFacade.parse_recipe_details(id)
-      expect(results.id).to eq(id)
-      expect(results.name).to be_a(String)
-      expect(results.recipe_info).to be_a(String)
-      results.instructions.each do |instruction|
-        expect(instruction).to be_a(Instruction)
-      end
-      results.ingredients.each do |ingredient|
-        expect(ingredient).to be_a(Ingredient)
-      end
-      results.nutrients.each do |nutrient|
-        expect(nutrient).to be_a(Nutrient)
-      end
+    recipe_info = JSON.parse(File.read('./spec/fixtures/recipe_view.json'), symbolize_names: true)
+    allow(RecipesService).to receive(:recipe_view).and_return(recipe_info)
+    results = RecipesFacade.parse_recipe_details(123)
+
+    expect(results).to be_a(RecipePoro)
+
+    expect(results.id).to eq(123)
+
+    expect(results.name).to eq("Tart Green Salad with Avocado Dressing")
+
+    expect(results.image).to eq("https://spoonacular.com/recipeImages/123-556x370.jpg")
+
+    expect(results.recipe_info).to eq("You can never have too many side dish recipes, so give Tart Green Salad with Avocado Dressing a try. One portion of this dish contains about <b>3g of protein</b>, <b>4g of fat</b>, and a total of <b>71 calories</b>. This recipe serves 4 and costs $1.73 per serving. It is a good option if you're following a <b>gluten free, primal, whole 30, and pescatarian</b> diet. 7 people were impressed by this recipe. Head to the store and pick up coarse salt and ground pepper, avocado, coarse salt and ground pepper, and a few other things to make it today. From preparation to the plate, this recipe takes roughly <b>15 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 64%</b>. This score is solid. Try <a href=\"https://spoonacular.com/recipes/grapefruit-avocado-salad-with-pepita-green-goddess-dressing-857435\">grapefruit-avocado salad with pepita green goddess dressing</a>, <a href=\"https://spoonacular.com/recipes/fava-green-+-snap-pea-salad-with-creamy-avocado-dressing-18301\">Fava Green + Snap Pea Salad With Creamy Avocado Dressing</a>, and <a href=\"https://spoonacular.com/recipes/tuna-nicoise-salad-with-avocado-green-goddess-dressing-835966\">Tuna Nicoise Salad with Avocado Green Goddess Dressing</a> for similar recipes.")
+
+    expect(results.instructions[0].step).to eq(1)
+    expect(results.instructions[0].instruction).to eq("Combine salad ingredients in a large bowl and season with salt and pepper.")
+
+    expect(results.ingredients[0].name).to eq("anchovies")
+    expect(results.ingredients[0].amount).to eq("1.0 ")
+
+    expect(results.nutrients[0].name).to eq("Calories")
+    expect(results.nutrients[0].amount).to eq("66.64 kcal")
   end
 
   it 'can parse search data' do

@@ -25,5 +25,13 @@ RSpec.describe 'Recipe Service Search', type: :request do
         end
       end
     end
+    xit 'returns results filtered by diet' do
+      ingredient = 'rice'
+      diet = 'vegan'
+      recipes = RecipesService.recipe_search(ingredient, diet)
+
+      expect(recipes).to be_a(Array)
+
+    end
   end
 end

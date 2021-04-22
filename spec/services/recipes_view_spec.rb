@@ -15,36 +15,36 @@ RSpec.describe 'Recipe Service View', type: :request do
         serialized = RecipePoroSerializer.new(poro)
 
         expect(recipe).to be_a(Hash)
-        expect(recipe).to have_key(:name)
+        expect(recipe[:data][:attributes]).to have_key(:name)
         # expect(recipe[:name]).to eq("Tart Green Salad with Avocado Dressing")
-        expect(recipe).to have_key(:image)
-        expect(recipe[:image]).to be_a(String)
-        expect(recipe).to have_key(:recipe_info)
-        expect(recipe[:recipe_info]).to be_a(String)
-        expect(recipe).to have_key(:instructions)
-        expect(recipe[:instructions]).to be_a(Array)
+        expect(recipe[:data][:attributes]).to have_key(:image)
+        expect(recipe[:data][:attributes][:image]).to be_a(String)
+        expect(recipe[:data][:attributes]).to have_key(:recipe_info)
+        expect(recipe[:data][:attributes][:recipe_info]).to be_a(String)
+        expect(recipe[:data][:attributes]).to have_key(:instructions)
+        expect(recipe[:data][:attributes][:instructions]).to be_a(Array)
 
-        recipe[:instructions].each do |instruction|
+        recipe[:data][:attributes][:instructions].each do |instruction|
           expect(instruction).to have_key(:step)
           expect(instruction[:step]).to be_a(Integer)
           expect(instruction).to have_key(:instruction)
           expect(instruction[:instruction]).to be_a(String)
         end
 
-        expect(recipe).to have_key(:ingredients)
-        expect(recipe[:ingredients]).to be_a(Array)
+        expect(recipe[:data][:attributes]).to have_key(:ingredients)
+        expect(recipe[:data][:attributes][:ingredients]).to be_a(Array)
 
-        recipe[:ingredients].each do |ingredient|
+        recipe[:data][:attributes][:ingredients].each do |ingredient|
           expect(ingredient).to have_key(:name)
           expect(ingredient[:name]).to be_a(String)
           expect(ingredient).to have_key(:amount)
           expect(ingredient[:amount]).to be_a(String)
         end
 
-        expect(recipe).to have_key(:nutrients)
-        expect(recipe[:nutrients]).to be_a(Array)
+        expect(recipe[:data][:attributes]).to have_key(:nutrients)
+        expect(recipe[:data][:attributes][:nutrients]).to be_a(Array)
 
-        recipe[:nutrients].each do |nutrient|
+        recipe[:data][:attributes][:nutrients].each do |nutrient|
           expect(nutrient).to have_key(:name)
           expect(nutrient[:name]).to be_a(String)
           expect(nutrient).to have_key(:amount)
