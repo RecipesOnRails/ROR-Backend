@@ -19,7 +19,7 @@ Rails 5.2.5
 #### Step One:
 On your local terminal, use this command to clone down the repository on your local machine.
 
-    `git clone git@github.com:RecipesOnRails/ROR-Front-End.git` 
+    `git clone git@github.com:RecipesOnRails/ROR-Backend.git` 
 
 #### Step Two
 Once that is done, go into that repository and run this command to install the gems locally. 
@@ -44,7 +44,7 @@ To run specific tests, run..
     
 with the folder it lives in afterwards. EX: 
 
-    `bundle exec rspec spec/features/welcome/index_spec.rb`
+    `bundle exec rspec spec/models/meal_plan_recipe_spec.rb`
 
 ## Deployment
 Any pull requests merged into the main branch on GitHub will first be tested by TravisCI.
