@@ -1,92 +1,66 @@
 # RecipeOnRails Backend 
 
-One Paragraph of project description goes here
+This project serves as the group Consultancy Project for Module 3 of Turing School of Software & Design's Back-End program.
+
+Our challenge was to create a student-led web application from idea to inception. Project requirements included: authentication with a third-party service, consuming an API, and solving a real-world problem.
+
+You can find our other repositories here:
+- [Frontend](https://github.com/RecipesOnRails/ROR-Front-End)
+- [Spoonacular Microservice](https://github.com/RecipesOnRails/ROR_recipe_microservice)
+- [Kroger Microservice](https://github.com/RecipesOnRails/ROR_shopping_microservice)
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+Ruby 2.5.3  
+Rails 5.2.5
 
 ### Installing
+#### Step One:
+On your local terminal, use this command to clone down the repository on your local machine.
 
-A step by step series of examples that tell you how to get a development env running
+    `git clone git@github.com:RecipesOnRails/ROR-Front-End.git` 
 
-Say what the step will be
+#### Step Two
+Once that is done, go into that repository and run this command to install the gems locally. 
 
-```
-Give the example
-```
+    `bundle install` 
 
-And repeat
+#### Step Three
+Setup Local Database with this command. 
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+    `rails db:{create, migrate, seed}`
 
 ## Running the tests
+This application uses RSpec for it's test suite.  
 
-Explain how to run the automated tests for this system
+To run the entire test suite, use the command: 
 
-### Break down into end to end tests
+    `bundle exec rspec` 
+  
+To run specific tests, run..
 
-Explain what these tests test and why
+    `bundle exec rspec` 
+    
+with the folder it lives in afterwards. EX: 
 
-```
-Give an example
-```
+    `bundle exec rspec spec/features/welcome/index_spec.rb`
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-## Endpoints
-
-### Recipe search
-
-   Passes params from user on recipe search page to spoonacular microservice.
-   Returns standard JSON for Frontend views.
-   
-   ```{
-       "data": {
-        "id": Integer
-        "type": String,
-        "attributes": {
-            "Title": String,
-            "Cuisine": [ { } ],
-            "Calories": { },
-         }
-       }
-     }
-```
 ## Deployment
-
-Add additional notes about how to deploy this on a live system
+Any pull requests merged into the main branch on GitHub will first be tested by TravisCI.
+Once passed by TravisCI, it will automatically deployed to the Heroku website.
+https://nameless-plains-48795.herokuapp.com/ is where it lives on production level.
 
 ## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Ruby on Rails](https://guides.rubyonrails.org/v5.2/) -  Web Framework Used
+* [TravisCI](https://docs.travis-ci.com/) - Continuous Integration Service Used
+* [Heroku](https://devcenter.heroku.com/categories/reference) - Cloud Platform Service Used
 
 ## Contributing
-
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Authors
 * **Megan Gonzales** -- [GitHub](https://github.com/MGonzales26) |
@@ -105,12 +79,3 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
   [LinkedIn](https://www.linkedin.com/in/jeremiah-michlitsch-49048a206/)
   
 See also the list of [contributors](https://github.com/RecipesOnRails/ROR-Front-End/graphs/contributors)
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
